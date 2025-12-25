@@ -39,31 +39,30 @@ Drone Camera → Image Capture → Image Processing → Crack Detection → Meas
 ---
 
 ## ▶️ How to Run
+```bash
 git clone https://github.com/your-username/Drone-Crack-Detection-Tall-Buildings.git
 cd Drone-Crack-Detection-Tall-Buildings
 pip install -r requirements.txt
 python src/crack_detection.py
+```
 
-📊 Output
+## 📊 Output
 - Cracks highlighted in red
 - Total crack length printed in meters
 
 Output image saved in output.png
 
-📐 Repair Decision Logic
+## 📐 Repair Decision Logic
 Crack Length (m)	Condition	Action
 < 0.3	Minor	Monitor
 0.3 – 1.0	Moderate	Repair Soon
 > 1.0	Severe	Immediate Repair
 
-🚀 Future Enhancements
+## 🚀 Future Enhancements
 - Real-time drone video analysis
 - AI-based crack classification
 - GPS-tagged crack mapping
 - Autonomous drone navigation
 
-📜 License
-MIT License
-
-👨‍💻 Author
+## 👨‍💻 Author
 **Mayank**
