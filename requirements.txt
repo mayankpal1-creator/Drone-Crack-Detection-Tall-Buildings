@@ -1,0 +1,10 @@
+
+---
+
+## 📄 FILE 2: `requirements.txt`
+
+```txt
+opencv-python
+numpy
+matplotlib
+
