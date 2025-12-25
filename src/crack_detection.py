@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Load image captured by drone
-image_path = "data/sample_wall.jpg"
+image_path = "sample_wall.jpg"
 image = cv2.imread(image_path)
 
 if image is None:
@@ -41,7 +41,7 @@ print(f"Total Crack Length Detected: {crack_length_meters:.2f} meters")
 
 # Save output image
 os.makedirs("output", exist_ok=True)
-output_path = "output/detected_cracks.png"
+output_path = "output_detected_cracks.png"
 cv2.imwrite(output_path, image)
 
 # Display result
